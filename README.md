@@ -21,4 +21,4 @@ Fixed bugs and performance issues in discount calculation system.
 
 ### Limitations
 - Provider APIs only support single-item requests (no batch processing)
-- Performance constrained by external API design (100-300ms delays per call)
+- Performance constrained by external API design (Visa: 100ms, Loyalty: 300ms per call)
