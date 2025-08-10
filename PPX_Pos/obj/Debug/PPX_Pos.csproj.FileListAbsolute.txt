@@ -1,0 +1,6 @@
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\PPX_Pos\bin\Debug\PPX_Pos.dll
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\PPX_Pos\bin\Debug\PPX_Pos.pdb
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\PPX_Pos\obj\Debug\PPX_Pos.csproj.AssemblyReference.cache
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\PPX_Pos\obj\Debug\PPX_Pos.csproj.CoreCompileInputs.cache
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\PPX_Pos\obj\Debug\PPX_Pos.dll
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\PPX_Pos\obj\Debug\PPX_Pos.pdb

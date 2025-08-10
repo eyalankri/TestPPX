@@ -1,0 +1,10 @@
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\PPX_PromotionEngine\bin\Debug\PPX_PromotionEngine.exe
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\PPX_PromotionEngine\bin\Debug\PPX_PromotionEngine.pdb
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\PPX_PromotionEngine\bin\Debug\Loyalty.dll
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\PPX_PromotionEngine\bin\Debug\PPXModel.dll
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\PPX_PromotionEngine\bin\Debug\Visa.dll
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\PPX_PromotionEngine\obj\Debug\PPX_PromotionEngine.csproj.AssemblyReference.cache
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\PPX_PromotionEngine\obj\Debug\PPX_PromotionEngine.csproj.CoreCompileInputs.cache
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\PPX_PromotionEngine\obj\Debug\PPX_PromotionEngine.csproj.CopyComplete
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\PPX_PromotionEngine\obj\Debug\PPX_PromotionEngine.exe
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\PPX_PromotionEngine\obj\Debug\PPX_PromotionEngine.pdb

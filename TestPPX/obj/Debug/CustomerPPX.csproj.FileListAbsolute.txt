@@ -1,0 +1,10 @@
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\TestPPX\bin\Debug\CustomerPPX.exe.config
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\TestPPX\bin\Debug\CustomerPPX.exe
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\TestPPX\bin\Debug\CustomerPPX.pdb
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\TestPPX\bin\Debug\PPX_Pos.dll
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\TestPPX\bin\Debug\PPX_Pos.pdb
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\TestPPX\obj\Debug\CustomerPPX.csproj.AssemblyReference.cache
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\TestPPX\obj\Debug\CustomerPPX.csproj.CoreCompileInputs.cache
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\TestPPX\obj\Debug\CustomerPPX.csproj.CopyComplete
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\TestPPX\obj\Debug\CustomerPPX.exe
+C:\Projects\!_Assignments\PPXInterview_Original\PPXInterview\TestPPX\TestPPX\obj\Debug\CustomerPPX.pdb
