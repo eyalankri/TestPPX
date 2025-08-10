@@ -12,7 +12,7 @@ TestPPX/
 │   ├── Providers/
 │   │   ├── LoyaltyProvider.cs      # Loyalty discount provider
 │   │   └── VisaProvider.cs         # Visa discount provider
-│   ├── Program.cs                  # Main entry point for promotion system
+│   ├── Program.cs                  
 │   ├── PromotionEngine.cs          # Discount calculation engine
 │   └── PromotionEngine.cs.backup   
 └── PPX_Pos/                        
