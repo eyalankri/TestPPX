@@ -1,18 +1,21 @@
 ﻿using PPX_Pos;
+
 namespace TestPPX
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // Default greeting (Hello)
-            var Pos = new CustomerPOS("Israel");
-            POS_Process.Load(Pos);
+            // Create base POS implementation
+            var basePOS = new PassportX_POS();
 
-            // Or with custom greeting
-            // var Pos = new CustomerPOS("Israel", "Shalom");
+            // Decorate it with customer-specific functionality
+            var customerPOS = new CustomerPOS(basePOS, "Israel");
+            
+            // Note: "Israel" can also be read from appsettings.json or environment variables 
+            //       for easier configuration without changing the code.
 
-
+            POS_Process.Load(customerPOS);
         }
     }
 }

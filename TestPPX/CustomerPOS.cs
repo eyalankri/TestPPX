@@ -3,40 +3,31 @@ using PPX_Pos;
 
 namespace TestPPX
 {
+    /// <summary>
+    /// Decorator that extends POS welcome message with country-specific information
+    /// </summary>
     public class CustomerPOS : IPOS
     {
-        private readonly PassportX_POS _basePOS;
+        private readonly IPOS _decoratedPOS;
         private readonly string _country;
-        private readonly string _greeting;
 
-        public CustomerPOS(string country, string greeting = null)
+        /// <summary>
+        /// Creates a CustomerPOS decorator
+        /// </summary>
+        /// <param name="decoratedPOS">The base POS implementation to decorate</param>
+        /// <param name="country">Customer country</param>
+        public CustomerPOS(IPOS decoratedPOS, string country)
         {
-            _basePOS = new PassportX_POS();
-            _country = country;
-            _greeting = greeting;
+            _decoratedPOS = decoratedPOS ?? throw new ArgumentNullException(nameof(decoratedPOS));
+            _country = country ?? throw new ArgumentNullException(nameof(country));
         }
 
         public string DisplayWelcomeScreen()
         {
-            var baseMessage = _basePOS.DisplayWelcomeScreen(); // "Hello Passport-X"
-
-            // If custom greeting provided, replace the default greeting
-            if (!string.IsNullOrEmpty(_greeting))
-            {
-                baseMessage = baseMessage.Replace("Hello", _greeting); // "Hola Passport-X"
-            }
-
-            return $"{baseMessage} {_country} customer";  
+            var baseMessage = _decoratedPOS.DisplayWelcomeScreen();
+            return $"{baseMessage} {_country} customer";
         }
-
-        public void Load()
-        {
-            DisplayWelcomeScreen(); // Interface requirement - not currently used
-        }
-
-        public Guid CreateCustomerOrder()
-        {
-            return Guid.NewGuid(); // Fake order id for demo
-        }
+      
+        public Guid CreateCustomerOrder() => _decoratedPOS.CreateCustomerOrder();
     }
 }
