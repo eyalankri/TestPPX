@@ -4,8 +4,8 @@
 ```
 TestPPX/
 ├── CustomerPPX/
-│   ├── Program.cs           # Main entry point for POS system
-│   └── CustomerPOS.cs       # Country-specific POS implementation
+│   ├── Program.cs           
+│   └── CustomerPOS.cs       
 ├── PPX_PromotionEngine/
 │   ├── Interfaces/
 │   │   └── IDiscountProvider.cs    # Provider contract interface
@@ -14,10 +14,10 @@ TestPPX/
 │   │   └── VisaProvider.cs         # Visa discount provider
 │   ├── Program.cs                  # Main entry point for promotion system
 │   ├── PromotionEngine.cs          # Discount calculation engine
-│   └── PromotionEngine.cs.backup   # Original buggy implementation
-└── PPX_Pos/                        # Reference project (not modified)
-    ├── PassportX_POS.cs            # Original POS implementation
-    └── POS_Process.cs              # Core POS processing logic
+│   └── PromotionEngine.cs.backup   
+└── PPX_Pos/                        
+    ├── PassportX_POS.cs            
+    └── POS_Process.cs              
 ```
 
 ## Task 1: CustomerPOS
