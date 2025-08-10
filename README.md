@@ -1,9 +1,30 @@
 # PPX Interview Tasks
 
+## Project Structure
+```
+TestPPX/
+├── CustomerPPX/
+│   ├── Program.cs           # Main entry point for POS system
+│   └── CustomerPOS.cs       # Country-specific POS implementation
+├── PPX_PromotionEngine/
+│   ├── Interfaces/
+│   │   └── IDiscountProvider.cs    # Provider contract interface
+│   ├── Providers/
+│   │   ├── LoyaltyProvider.cs      # Loyalty discount provider
+│   │   └── VisaProvider.cs         # Visa discount provider
+│   ├── Program.cs                  # Main entry point for promotion system
+│   ├── PromotionEngine.cs          # Discount calculation engine
+│   └── PromotionEngine.cs.backup   # Original buggy implementation
+└── PPX_Pos/                        # Reference project (not modified)
+    ├── PassportX_POS.cs            # Original POS implementation
+    └── POS_Process.cs              # Core POS processing logic
+```
+
 ## Task 1: CustomerPOS
 Extended POS welcome message with country-specific greetings.
 - **Input**: Country and optional greeting
 - **Output**: "Hello Passport-X Italy customer" or "Hola Passport-X Spain customer"
+- **Key**: Preserves original generic prefix, extends functionality without overriding
 
 ## Task 2: PromotionEngine
 Fixed bugs and performance issues in discount calculation system.
@@ -13,12 +34,13 @@ Fixed bugs and performance issues in discount calculation system.
 - **Calculation Bug**: Discounts calculated from original price and summed
 - **Performance**: Providers created once, item IDs loaded at startup
 - **Error Handling**: Provider failures don't crash system
+- **Extensibility**: Adding new provider requires only one line of code
 
 ### Architecture
+- Uses wrapper pattern with IDiscountProvider interface
 - Supports Visa and Loyalty providers
 - Easily extensible for new providers
 - Production-ready with logging and error handling
 
 ### Limitations
 - Provider APIs only support single-item requests (no batch processing)
-- Performance constrained by external API design (Visa: 100ms, Loyalty: 300ms per call)

@@ -10,6 +10,7 @@ namespace PPX_PromotionEngine
         {
             var items = new List<Item>
             {
+                new Item { Id = 99, Price = 99 },
                 new Item { Id = 1, Price = 20 },
                 new Item { Id = 2, Price = 2 },
                 new Item { Id = 3, Price = 7 },
@@ -20,7 +21,7 @@ namespace PPX_PromotionEngine
                 new Item { Id = 1, Price = 20 },
                 new Item { Id = 11, Price = 9 },
                 new Item { Id = 8, Price = 16 },
-                new Item { Id = 13, Price = 17 }
+                new Item { Id = 13, Price = 17 },
             };
 
             var promotionEngine = new PromotionEngine();

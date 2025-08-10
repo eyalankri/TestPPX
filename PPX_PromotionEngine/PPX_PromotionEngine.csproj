@@ -54,7 +54,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IDiscountProvider.cs" />
+    <Compile Include="Providers\LoyaltyProvider.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="Providers\VisaProvider.cs" />
     <None Include="PromotionEngine.cs.backup" />
     <Compile Include="PromotionEngine.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -62,5 +65,6 @@
   <ItemGroup>
     <Content Include="ReadMe.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
